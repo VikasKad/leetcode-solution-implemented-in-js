@@ -60,3 +60,18 @@ console.log('Output should be [1,3]: ', twoSum([2, 7, 11, 15], 22));
 console.log('Output should be [1,2]: ', twoSum([2, 7, 11, 15], 18));
 console.log('Output should be [0,2]: ', twoSum([2, 7, 11, 15], 13));
 console.log('Output should be [0,4]: ', twoSum([2, 7, 11, 15, 32], 34));
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+ var twoSum = function(nums, target) {
+    
+    for(let i=0;i<nums.length;i++){
+        for(let j=i+1;j<nums.length;j++){
+            if((parseInt(nums[i])+parseInt(nums[j]))===target){
+               return [i,j];
+               }
+        }    
+    }
+};
