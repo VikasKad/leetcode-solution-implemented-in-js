@@ -146,3 +146,33 @@ const printRightDecreasingTriangle = (n) => {
 }
 console.log(`-------5. Right side decreasing Triangle Pattern ----\n`)
 console.log(printRightDecreasingTriangle(count));
+
+
+/**
+ * 6. Hill Pattern 
+            *
+           ***
+          *****
+         *******
+        *********
+
+ */
+ const printHillPattern = (n) => {
+    let str = "";
+    for (let i = 1; i <= n; i++) {
+        for (let j = i; j <= n; j++) {
+            str += "  ";
+        }
+        for(let j=1;j<i;j++){
+            str+='* '
+        }
+
+        for(let j=1;j<=i;j++){
+            str+='* '
+        }
+        str += '\n';
+    }
+    return (str);
+}
+console.log(`-------6. Hill Pattern  ----\n`)
+console.log(printHillPattern(count));
