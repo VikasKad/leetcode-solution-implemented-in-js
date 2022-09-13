@@ -1,0 +1,48 @@
+--------1.   Square Star Pattern program----
+
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+--------2. Hollow Square Pattern----
+
+* * * * * 
+*       * 
+*       * 
+*       * 
+* * * * * 
+
+--------3. Increasing Pattern ----
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+--------4. Decreasing Pattern----
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+-------6. Right side decreasing Triangle Pattern ----
+
+          * 
+        * * 
+      * * * 
+    * * * * 
+  * * * * * 
+
+-------5. Right side decreasing Triangle Pattern ----
+
+  * * * * * 
+    * * * * 
+      * * * 
+        * * 
+          * 
+
